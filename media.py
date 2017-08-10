@@ -5,8 +5,11 @@ import webbrowser
     2. movie_storyline
     3.poster_image
     4.trailer_youtube """
+
+
 class Movie():
-    def __init__(self, movie_title, movie_storyline, poster_image, trailer_youtube):
+    def __init__(self, movie_title, movie_storyline,
+                 poster_image, trailer_youtube):
         self.title = movie_title
         self.storyline = movie_storyline
         self.poster_image_url = poster_image
